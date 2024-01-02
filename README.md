@@ -1,9 +1,15 @@
-## Deformable Convolutional Networks V2 with Pytorch 1.X
+## Deformable Convolutional Networks V2 with Pytorch 1.11
+### Install PyTorch and torchvision
+
+```bash
+    pip install torch==1.11.0+cu113 torchvision==0.12.0+cu113 torchaudio==0.11.0 --extra-index-url https://download.pytorch.org/whl/cu113
+
+```
 
 ### Build
 
 ```bash
-    python setup.py build develop         # build
+    python setup.py build develop     
 ```
 or
 ```bash
